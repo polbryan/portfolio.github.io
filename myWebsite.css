@@ -131,7 +131,7 @@ ul li{
   width: 100%;
   padding: 20px 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
 }
 .card{
@@ -179,6 +179,7 @@ ul li{
   font-size: 1.2rem;
 }
 footer{
+  width: 100%;
   text-align: center;
   font-size: 1.5rem;
   background: #2d848a;
